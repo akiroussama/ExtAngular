@@ -35,4 +35,4 @@ export class AppModule {
     extAngularService.setBootStrapComponent(AppComponent)
   }
 }
- 
+  

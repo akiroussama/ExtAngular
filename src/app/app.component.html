@@ -1,11 +1,10 @@
 <container [fullscreen]="true" layout="fit">
 
     <titlebar [title]="title" docked="top">
-        <button align="left"  iconCls="x-fa fa-bars" (pressedchange)="this.toggleMicro($event)" [pressed]="micro" ripple="false"></button>
       </titlebar>
       <toolbar  docked="top">
           <segmentedbutton  allowMultiple="true">
-            <button  ui="default-toolbar" text="Micro" [pressed]="micro" (pressedchange)="this.toggleMicro($event)"></button>
+            <button  ui="default-toolbar" text="Micro" iconCls="x-fa fa-bars" [pressed]="micro" (pressedchange)="this.toggleMicro($event)"></button>
           </segmentedbutton>
         </toolbar>
   <panel docked="left" shadow="true">

@@ -22,7 +22,7 @@ export class AppComponent {
   left = !this.isPhone ? '10' : null
   width = !this.isPhone ? '400' : null
   height = !this.isPhone ? '600' : null
-  title = 'Sencha ExtAngular 6.7 Boilerplate - Angular v' + VERSION.full
+  title = 'Bou7mid Demo : Sencha ExtAngular 6.7 Boilerplate - Angular v' + VERSION.full
 
   constructor(private router: Router) {}
 
